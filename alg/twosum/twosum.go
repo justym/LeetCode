@@ -1,6 +1,6 @@
-package p1
+package twosum
 
-func twoSum(nums []int, target int) []int {
+func TwoSum(nums []int, target int) []int {
 	indices := make([]int, 2)
 	for i := 0; i < len(nums); i++ {
 		for j := 0; j < len(nums); j++ {
